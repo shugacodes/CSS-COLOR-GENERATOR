@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz@12..96&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+
+.container{
+    min-height: 85vh;
+    /* background:  linear-gradient(45deg, #1e07ec, #fa40c2); */
+    padding: 1rem;
+    max-width: 75rem;
+    margin: 6.25rem auto 1.5rem;
+    /* padding: 2.5rem 2rem 5rem; */
+    border-radius: 1rem; 
+    box-shadow: 8px 8px 1px #000;
+    background-color: #f8f8f8;
+    border: 2px solid #000;
+
+}
+
+.page-title-container{
+    width: fit-content;
+    margin: 1.5rem auto;
+    /* background-color: #f8f8f8; */
+    color: #fff;
+    padding: 1.5rem;
+    /* border: 1px solid #1221ee; */
+    /* border-radius: 1rem; */
+    margin-top: 2rem;
+}
+
+.page-title-container h1{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #91065c;
+}
+
+.page-title-container p{
+    font-size: 1rem;
+    color: #1e1e1e;
+    font-weight: 500;
+}
+
+.color-generation-container{
+    width: 80%;
+    height: auto;
+    background-color: #f8f8f8;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+    row-gap: 4rem;
+    /* border: 1px solid #91065c;  */
+    border-radius: 1rem;
+}
+
+.color-box-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    border-radius: 2rem;
+}
+
+.first-color-box, .second-color-box, .third-color-box{
+    background-color: #e3e3e3;
+    padding: 2rem 4rem;
+    border-radius: 1rem;
+}
+
+.button{
+    background-color: #91065c;
+    color: #f8f8f8;
+    padding: 1.5rem 2rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 2rem;
+    font-size: 1rem;
+    box-shadow: 7px 7px 1px 1px #000;
+}
+
+.button:hover{
+    background-color: #e3e3e3;
+    color: #91065c;
+    box-shadow: 7px 7px 1px #91065c;
+    border-radius: 2rem;
+    border: 1px solid #91065c;
+    font-size: 1rem;
+}
